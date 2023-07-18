@@ -1,0 +1,232 @@
+.header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+align-items: center;
+    height:2.2cm;
+    background-color: #144184;
+    font-family: Roboto,arial;
+    
+    
+    
+}
+.leftsection{
+    
+    display: flex;
+    padding-left: 50px;
+}
+.rightsection{
+    
+   color:white;
+  align-items: center;
+    display: flex;
+    justify-content: space-between;
+   flex-shrink: 0;
+    margin-right:2.5cm;
+    
+}
+.middlesection{
+    
+   color: white;
+    display: flex;
+    justify-content: space-between;
+    flex:1;
+    padding-left: 30px; 
+    padding-right: 70px;
+    margin-left: 1cm;
+    margin-right: 2.5cm;
+    font-size: 17px;
+    max-width:700px;
+}
+.hdtodayicon{
+    width:120;
+    height:40px;
+    cursor: pointer;
+}
+.loginicon{
+    width:50px;
+    height:50px;
+    cursor: pointer;
+}
+.moviesearch{
+    width:6cm;
+    height: 35px;
+    border-radius: .5cm;
+    border:none;
+}
+.moviesearch::placeholder{
+    padding-left: 5px;
+}
+.movieheader{
+    margin-left: 1cm;
+    font-family: roboto,arial;
+    font-size: 30px;
+}
+.page{
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 15cm;
+    margin-right: 15cm;
+    margin-top: 1.5cm;
+   margin-bottom: 1cm;
+   padding: 10px 15px 10px 15px;
+}
+
+.videoprev{
+    
+    border-radius: 20px;
+}
+.videoprev:hover{
+    background-color: black;
+   color:white;
+   transition: .30s;
+   cursor: pointer;
+}
+.videoprev:hover .movieduration{
+   color:white;
+   transition: .30s;
+}
+.vid-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: .3cm;
+      row-gap: .4cm;
+      margin-left: 2cm;
+      margin-right: 2cm;
+   
+}
+  
+
+.movieposter>img{
+    width:100%;
+    height:10cm;
+    border-radius: .5cm;
+    
+}
+.movieposter>img:hover{
+    opacity:60%;
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: .30s;
+}
+.pagenum{
+color: white;
+   padding: 15px 20px ;
+    border-radius: 25px;
+    background-color:#144184;
+}
+
+.pagenum:hover{
+    background-color:white;
+    cursor: pointer;
+    color: black;
+    transition: .30s;
+}
+.movietitle:hover{
+    color: blue;
+
+}
+.moviename{
+    font-family: roboto,arial;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 0.2cm;
+}
+.movieduration{
+ color: black;
+ font-family: roboto,arial;
+ font-size: 15px;
+ margin-top: -.3cm;
+}
+.categories:hover{
+cursor: pointer;
+}
+.footer{
+    display:flex;
+    background-color:#144184;
+    color:black;
+    height: 5cm;
+    align-items: center;
+    margin-top: 1cm;
+    font-family: roboto,arial;
+    font-size: 14px;
+}
+.footermiddle{
+   display: flex;
+   align-items: center;
+   margin-left: 3cm;
+   margin-right: -7cm;
+   color:#b9b9b9;
+}
+.footerright{
+    display: flex;
+    align-items: center;
+    color:#b9b9b9;
+    margin-right: .5cm;
+    margin-left: 9cm;
+   border: 1px;
+   border-style: solid;
+   padding:10px;
+}
+.footerleft{
+    margin-left: 2cm;
+}
+.dropdowndiv{
+    position: relative;
+    display: inline-block;
+
+}
+.dropdowncontent {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    color:black;
+    padding: 0 5px 0 5px;
+    font-style: roboto,arial;
+    margin-top: 10px;
+}
+    .dropdowndiv:hover .dropdowncontent {display: block;}
+    .moviebutton,
+    .countrybutton{
+        margin-top: 17px;
+        font-size: 17px;
+        background-color: #144184;
+        border:none;
+        color: white;
+        cursor: pointer;
+        padding-bottom: 20px;
+    }
+    .dropdowncontent>p:hover{
+        background-color: #144184;
+        cursor: pointer;
+    }
+    .background{
+        width:100%;
+opacity: 40%;
+position: relative;
+height:20cm;
+    }
+    .discription{
+        font-family: Roboto,arial;
+position: absolute;
+top:9cm;
+left:1.5cm;
+right:1.5cm;
+font-size: 30px;
+text-align: center;
+}
+.discriptionhdtoday{
+    width:200px;
+    margin-top: 15px;
+}
+.moviesearch{
+    padding-left: 20px;
+}
+
+        
+  
